@@ -1,6 +1,5 @@
 {
     "type": "minecraft:crafting_shaped",
-    "group": "happy_ghast_enhanced",
     "category": "equipment",
     "pattern": [
         "141",
@@ -35,13 +34,18 @@
                     "operation": "add_value",
                     "slot": "chest",
                     "display": {
-                        "type": "default"
+                        "type": "hidden"
                     }
                 }
             ],
             "minecraft:lore": [
                 {
-                    "text": "ハッピーガストに装備させられる",
+                    "text": "ハッピーガストに装備させると、",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "text": "飛行速度が上昇する",
                     "color": "gray",
                     "italic": false
                 },
@@ -70,6 +74,7 @@
                 "equip_sound": "minecraft:block.amethyst_block.resonate",
                 "allowed_entities": "minecraft:happy_ghast",
                 "damage_on_hurt": false,
+                "swappable": true,
                 "equip_on_interact": true,
                 "can_be_sheared": true
             }
