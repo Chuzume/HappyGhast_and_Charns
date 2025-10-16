@@ -30,7 +30,7 @@
                 {
                     "type": "minecraft:flying_speed",
                     "id": "flying_speed",
-                    "amount": 0.07,
+                    "amount": 0.05,
                     "operation": "add_value",
                     "slot": "chest",
                     "display": {
