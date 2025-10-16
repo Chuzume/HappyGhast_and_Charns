@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_harness": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dried_ghast"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_harness"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "happy_ghast_charm:star_charm"
+    ]
+  }
+}
