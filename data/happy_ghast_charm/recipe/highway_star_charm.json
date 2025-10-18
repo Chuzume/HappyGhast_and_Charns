@@ -2,9 +2,9 @@
     "type": "minecraft:crafting_shaped",
     "category": "equipment",
     "pattern": [
-        "141",
-        "232",
-        "444"
+        "121",
+        "434",
+        "424"
     ],
     "key": {
         "1": [
