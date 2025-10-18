@@ -85,6 +85,9 @@
                 "swappable": true,
                 "equip_on_interact": true,
                 "can_be_sheared": true
+            },
+            "minecraft:damage_resistant": {
+                "types": "#minecraft:is_fire"
             }
         },
         "count": 1
